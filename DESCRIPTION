@@ -1,12 +1,12 @@
 Package: bertens
-Title: COPD exacerbation prediction model by Bertens et al <doi:10.2147/COPD.S49609>
+Title: COPD exacerbation prediction model.
 Version: 0.0.1
 Authors@R: 
     person(given = "Amin",
            family = "Adibi",
            role = c("aut", "cre"),
            email = "adibi@alumni.ubc.ca")
-Description: Predicts risk of exacerbations within the next 24 months based on previous exacerbation history, forced expiratory volume in one second, pack-years of smoking and a history of vascular disease.
+Description: Predicts risk of exacerbations within the next 24 months based on previous exacerbation history, forced expiratory volume in one second, pack-years of smoking and a history of vascular disease based on Bertens et al. (2013) <doi:10.2147/COPD.S49609>.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
