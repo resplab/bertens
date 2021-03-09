@@ -8,14 +8,14 @@
 
 <!-- badges: end -->
 
-The goal of bertens is to ...
+The goal of bertens is to predict the risk of exacerbations within the next 24 months based on previous exacerbation history, forced expiratory volume in one second, pack-years of smoking and a history of vascular disease.
 
 ## Installation
 
-You can install the released version of bertens from [CRAN](https://CRAN.R-project.org) with:
+You can install `bertens` from GitHub with:
 
 ``` r
-install.packages("bertens")
+remotes::install_github("resplab/bertens")
 ```
 
 ## Example
@@ -24,6 +24,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(bertens)
-## basic example code
+bertens(exacerbationHx = TRUE, fev1=32.9, packYears = 38, vascularDx = TRUE)
 ```
 

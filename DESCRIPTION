@@ -1,14 +1,17 @@
 Package: bertens
 Title: COPD exacerbation prediction model by Bertens et al <doi:10.2147/COPD.S49609>
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Amin",
            family = "Adibi",
            role = c("aut", "cre"),
            email = "adibi@alumni.ubc.ca")
-Description: Predicts risk of exacerbations within the next 24 months
+Description: Predicts risk of exacerbations within the next 24 months based on previous exacerbation history, forced expiratory volume in one second, pack-years of smoking and a history of vascular disease.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
