@@ -11,7 +11,7 @@ bertens(exacerbationHx, fev1, packYears, vascularDx)
 
 \item{fev1}{percent predicted FEV1}
 
-\item{packYears}{packyears of smoking history}
+\item{packYears}{packyears of smoking history. Value will be replaced with 0.5 if zero.}
 
 \item{vascularDx}{history of vascular disease; true or false}
 }
