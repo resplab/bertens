@@ -9,7 +9,7 @@
 #' @export
 bertens <- function (exacerbationHx, fev1, packYears, vascularDx ) {
 
-  if (packYears==0) {packYears <- 0.5}
+  packYears[packYears == 0] <- 0.5
   risk <- 1/(1 + exp (- (-1.33 + 1.62 * exacerbationHx -
                            0.05 * fev1/5  + 0.15 * log2(packYears) +
                            0.65 * vascularDx)))
